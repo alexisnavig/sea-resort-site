@@ -1,13 +1,36 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
+import Rooms from "@/components/sections/Rooms";
+import Amenities from "@/components/sections/Amenities";
+import Activities from "@/components/sections/Activities";
+import Gallery from "@/components/sections/Gallery";
+import Booking from "@/components/sections/Booking";
+import Pricing from "@/components/sections/Pricing";
+import Specials from "@/components/sections/Specials";
+import Reviews from "@/components/sections/Reviews";
+import Stats from "@/components/sections/Stats";
+import Location from "@/components/sections/Location";
+import FAQ from "@/components/sections/FAQ";
+import Contacts from "@/components/sections/Contacts";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Rooms />
+      <Amenities />
+      <Activities />
+      <Gallery />
+      <Booking />
+      <Pricing />
+      <Specials />
+      <Reviews />
+      <Stats />
+      <Location />
+      <FAQ />
+      <Contacts />
+    </>
   );
 };
 
